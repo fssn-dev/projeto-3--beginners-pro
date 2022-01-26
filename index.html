@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Level 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div id='frame'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dWpUc6o8eG8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <form action="" name="form" id="form" autocomplete="off">
+            <fieldset>
+                <legend>Formulário 1</legend>
+                <div>
+                    <label for="nome">Nome:<br></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div>
+                    <label for="idade">Idade:<br></label>
+                    <input type="number" name="idade" id="idade" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Formulário 2</legend>
+                <div>
+                    <Label for="circulo"> Raio do circulo:</Label>
+                </div>
+                <div>
+                    <input type="number" name="circulo" id="circulo">
+                </div>
+                <div>
+                    <div>
+                        <p>Circunferência do Círculo:</p>
+                    </div>
+                    <div>
+                        <span id="circunferenciaCirculo"></span>
+                    </div>
+                    <div>
+                        <p>Area do Círculo:</p>
+                    </div>
+                    <div>
+                        <span id="areaCirculo"></span>
+                    </div>
+                </div>
+                <div>
+                    <Label for="cubo">Base do cubo</Label>
+                </div>
+                <div>
+                    <input type="number" name="cubo" id="cubo">
+                </div>
+                <div>
+                    <div>
+                        <p>Area:</p>
+                    </div>
+                    <div><span id="areaCubo"></span>
+                    </div>
+                    <div>
+                        <p>Volume do Cubo:</p>
+                    </div>
+                    <div><span id="volumeCubo"></span>
+                    </div>
+                    <div>
+                        <p>Area total:</p>
+                    </div>
+                    <div><span id="areaTotalCubo"></span>
+                    </div>
+                    <div>
+                        <p>Area lateral:</p>
+                    </div>
+                    <div><span id="areaLateralCubo"></span>
+                    </div>
+                </div>
+                <div>
+                    <Label for="baseTrapezio1">Base 1 do trapézio</Label>
+                </div>
+                <div>
+                    <input type="number" name="baseTrapezio1" id="baseTrapezio1">
+                </div>
+                <div>
+                    <Label for="baseTrapezio2">Base 2 do trapézio</Label>
+                </div>
+                <div>
+                    <input type="number" name="baseTrapezio2" id="baseTrapezio2">
+                </div>
+                <div>
+                    <Label for="alturaTrapezio">Altura do trapézio</Label>
+                </div>
+                <div>
+                    <input type="number" name="alturaTrapezio" id="alturaTrapezio">
+                </div>
+                <div>
+                    <div>
+                        <p>Area do Trapézio:</p>
+                    </div>
+                    <div><span id="areaTrapezio"></span>
+                    </div>
+                </div>
+                <div>
+                    <Label for="mathTrunc">Remove as casas decimais de um número</Label>
+                </div>
+                <div>
+                    <input type="number" name="valorMath" id="valorMath">
+                </div>
+                <div>
+                    <div>
+                        <p>Resultado:</p>
+                    </div>
+                    <div><span id="mathTrunc"></span>
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <button type="button" id="enviar">Enviar</button>
+                <button type="button" id="random">Número aleatório entre 0 e 10</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
