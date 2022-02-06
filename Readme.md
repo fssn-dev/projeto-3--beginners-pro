@@ -17,7 +17,7 @@
   <h3 align="center">Projeto Level 3</h3>
 
   <p align="center">
-   Project from 3th module of the <a href="https://beginnerspro.faculdadeiv2.com.br/">Beginners Pro</a> course from <a href="https://faculdadeiv2.com.br/">Faculdade IV2</a>
+   Project from 3rd module of the <a href="https://beginnerspro.faculdadeiv2.com.br/">Beginners Pro</a> course from <a href="https://faculdadeiv2.com.br/">Faculdade IV2</a>
     <br />
     <a href="https://github.com/fssn-dev/projeto-5--beginners-pro"><strong>Explore the docs »</strong></a>
     <br />
